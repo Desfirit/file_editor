@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="tinyxml">
+      <UniqueIdentifier>{ab8d9695-b9e0-4b55-a5a2-ef549c28a252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="command_line_parser">
+      <UniqueIdentifier>{4af9de65-ac17-4217-8843-1f19a7ded694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="commands">
+      <UniqueIdentifier>{46a7854e-4338-4ca9-b6e2-6553ead48f0b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src\menu.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\tinyxml\tinyxml2.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="src\command_parser\command_parser.cpp">
+      <Filter>command_line_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="src\commands\read_command.cpp">
+      <Filter>commands</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\menu.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utils\command_line_utils.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="include\command_parser\command_parser.h">
+      <Filter>command_line_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="include\command_parser\command_types.h">
+      <Filter>command_line_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="include\command_parser\icommand.h">
+      <Filter>command_line_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utils\user_helpers.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="include\command_parser\command_exceptions.h">
+      <Filter>commands</Filter>
+    </ClInclude>
+    <ClInclude Include="include\commands\help_command.h">
+      <Filter>commands</Filter>
+    </ClInclude>
+    <ClInclude Include="include\commands\exit_command.h">
+      <Filter>commands</Filter>
+    </ClInclude>
+    <ClInclude Include="include\commands\read_command.h">
+      <Filter>commands</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utils\file_utils.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
